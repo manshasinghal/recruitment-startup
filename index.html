@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment Startup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container first">
+      <div class="logo">
+        <!-- Your logo image goes here -->
+        <img src="./pics/logo.svg" alt="Recruitment Startup">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#signin">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Hire the Best Talent Globally</h1>
+      <p>Find top Software Engineers, Product Managers, Data Scientists, and more.</p>
+      <a href="#get-started" class="hero-cta">Get Started</a>
+    </div>
+  </section>
+
+  <section class="job-search">
+    <div class="container">
+      <input type="text" placeholder="Enter Job Title">
+      <input type="text" placeholder="Location">
+      <button>Search</button>
+    </div>
+  </section>
+
+  
+
+ 
+
+  
+
+  <section class="company-profiles">
+    <div class="container">
+      <h2>Explore Company Profiles</h2>
+     <img src='./pics/customers-lg.webp' alt="">
+    </div>
+  </section>
+
+  <section class="skills-assessment">
+    <div class="container">
+      <h2>Take a Skills Assessment</h2>
+      <p>Test your expertise in different domains and find relevant job opportunities.</p>
+      <a href="#" class="assessment-button" id="start-assessment">Start Assessment</a>
+    </div>
+    <div class="assessment-modal" id="assessment-modal">
+      <div class="modal-content">
+        <img class="close-button" id="close-modal" src="./pics/cross.png" ></img>
+        <h3>Technical Skills Assessment</h3>
+        <p>Take the following assessment to showcase your technical expertise to employers.</p>
+        <div class="questions">
+          <!-- Add assessment questions and options here using JavaScript -->
+        </div>
+        <button id="submit-assessment">Submit</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-introductions">
+    <div class="container">
+      <h2>Create Your Video Introduction</h2>
+      <p>Stand out to employers by recording a short video introduction.</p>
+      <a href="#" class="video-button" id="record-video">Record Your Video</a>
+    </div>
+    <div class="video-modal" id="video-modal">
+      <div class="modal-content">
+        <img class="close-button" id="close-video" src="./pics/cross.png"></img>
+        <h3>Record Video Introduction</h3>
+        <p>Get ready to record your video. Introduce yourself, your skills, and your motivation.</p>
+        <!-- Add video recording functionality using JavaScript -->
+        <button id="start-recording">Start Recording</button>
+        <button id="stop-recording">Stop Recording</button>
+        <button id="submit-video">Submit</button>
+      </div>
+    </div>
+  </section>
+
+
+ 
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Recruitment Startup. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
